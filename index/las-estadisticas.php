@@ -1,0 +1,2 @@
+<section class="estadisticas">
+</section>

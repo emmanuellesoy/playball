@@ -1,0 +1,2 @@
+<aside class="boxBanner">
+</aside>
