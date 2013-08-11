@@ -1,1 +1,0 @@
-<footer class="footerPrincipal"></footer>

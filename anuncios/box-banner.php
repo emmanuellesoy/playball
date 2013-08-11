@@ -1,2 +1,0 @@
-<aside class="boxBanner">
-</aside>

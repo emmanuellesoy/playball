@@ -2,7 +2,6 @@
 <html>
     <head>
         <link href="<?php bloginfo('template_url'); ?>/css/normalize.css" type="text/css" rel="stylesheet" />
-        <link href="<?php bloginfo('template_url'); ?>/css/index.css" type="text/css" rel="stylesheet" />        
         <?php wp_head(); ?>
     </head>
     <body>
