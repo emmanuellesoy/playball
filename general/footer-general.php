@@ -10,17 +10,20 @@
 		</div>
 	</div>
 	<div class="cajaBuscar">
-		<input type="text" name="buscar" placeholder="Buscar">
-		<div class="contactos">
+	    <form method="get" id="searchform" action="<?php bloginfo('wpurl') ?>">
+			<input type="text" id="s" name="s" placeholder="Buscar">
+		</form>
 		<!--
+		<div class="contactos">
+		
 			<a href="" title="">
 				Nosotros
 			</a>
 			<a href="" title="">
-				-  Contacto
+				- Contacto -
 			</a>
 			<a href="" title="">
-				-  Publicidad
+				Publicidad
 			</a>
 		-->
 		</div>

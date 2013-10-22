@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Intro';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/Intro.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CollegiateBlackFLF';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/CollegiateBlackFLF.woff') format('woff');
+ 
+
+@font-face {
+  font-family: 'helveticalight';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/helveticalight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'helveticacondensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/helveticacondensed.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'helveticaneuelt';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/helveticaneueltcomlt.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'helveticaneuemedium';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/helveticaneueltcommd.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Colleged";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"),
+    url("../fonts/Colleged.woff") format("woff");
+}
+*
+{
+  background-color: #fff;
+}

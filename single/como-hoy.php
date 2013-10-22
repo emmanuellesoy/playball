@@ -10,11 +10,11 @@
 					UN DÍA COMO HOY
 				</a>
 			</h3>
-			<span>
+			<div class="notaComoHoy">
 				<a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
 					<?php the_title(); ?>
 				</a>
-			</span>
+			</div>
 		</section>
 	</a>
 <?php endwhile; ?>

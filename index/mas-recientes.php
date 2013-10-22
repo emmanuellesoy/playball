@@ -39,7 +39,12 @@
                 ?>
 			<h3>
 			<a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
-            	<?php the_title(); ?>
+                <?php $meta = get_post_custom(get_the_ID()); ?>
+                <?php if($meta['Subtitulo'][0]){ ?>
+                    <?php echo $meta['Subtitulo'][0]; ?>
+                <?php } else { ?>
+                    <?php the_title(); ?>
+                <?php } ?>
         	</a>
 			<div class="span">
 				por <?php the_author(); ?>

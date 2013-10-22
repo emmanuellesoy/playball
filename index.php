@@ -10,11 +10,9 @@
 		<?php get_template_part('index/pimienta', 'tv'); ?>
 		<section class="bannerEstadisticas">
 			<?php get_template_part('anuncios/super', 'banner'); ?>
-			<?php get_template_part('index/las', 'estadisticas'); ?>
+			<?php get_template_part('index/imagen', 'dia'); ?>
 		</section>
 		<?php get_template_part('index/como', 'hoy'); ?>
-		<?php get_template_part('index/imagen', 'dia'); ?>
-		<!--<?php get_template_part('index/frase', 'famosa'); ?>-->
 		<?php get_template_part('general/footer', 'general'); ?>
 	</div><!-- Termina contieneTodoFondio -->
 </section><!--Termina contieneTodo -->

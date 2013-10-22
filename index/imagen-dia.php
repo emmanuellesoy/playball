@@ -4,9 +4,17 @@
 	<a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
 		<div class="degradadoImagenDia">
 		</div>
-		<h4>
-        	<?php the_title(); ?>
-		</h4>
+		<div class="tituloImagenDia">
+			<img src="<?php bloginfo('template_url'); ?>/img/imagendia.png" alt="#" title="#">
+		</div>
+		<h2>
+			<?php $meta = get_post_custom(get_the_ID()); ?>
+			<?php if($meta['Subtitulo'][0]){ ?>
+				<?php echo $meta['Subtitulo'][0]; ?>
+			<?php } else { ?>
+				<?php the_title(); ?>
+			<?php } ?>
+		</h2>
 		<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
 	</a>
 <?php endwhile; ?>

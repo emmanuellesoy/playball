@@ -46,7 +46,7 @@
 		<div class="imagenPelotaPimienta"></div>
 	</a>
 		<p>
-			Cocinando emociones desde el campo de los sueños
+			Cocinando emociones de béisbol
 		</p>
 		<a href="http://www.pelotapimienta.mx/">
 			<div class="listaPelotaPimientaLinea"></div>
@@ -64,8 +64,5 @@
 	</div>
 	<div class="footerFinal">
 		Copyright © 2013 Tiki Taka Sports Network 
-		<p>
-			Todos los derechos reservados.
-		</p>
 	</div>
 </div>

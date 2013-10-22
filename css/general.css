@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Intro';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/Intro.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'IntroInline';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/IntroInline.ttf') format('truetype'),
+  url('../fonts/IntroInline.woff') format('woff');
+}
+@font-face {
+  font-family: 'CollegiateBlackFLF';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/CollegiateBlackFLF.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'helveticalight';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/helveticalight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'helveticacondensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/helveticacondensed.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'helveticaneuelt';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/helveticaneueltcomlt.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'helveticaneuemedium';
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"),
+  url('../fonts/helveticaneueltcommd.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Colleged";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"),
+    url("../fonts/Colleged.ttf") format("truetype");
+}

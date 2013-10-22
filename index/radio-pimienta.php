@@ -5,9 +5,19 @@
 			$custom_fields = get_post_custom();
 		?>
 			<h2>Radio Pimienta</h2>
+			<span>
+				|
+			</span>
+			<div class="nombreRadioPimienta">
     		<a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
-				| <?php the_title(); ?>
+    			<?php $meta = get_post_custom(get_the_ID()); ?>
+				<?php if($meta['Subtitulo'][0]){ ?>
+					<?php echo $meta['Subtitulo'][0]; ?>
+				<?php } else { ?>
+					<?php the_title(); ?>
+				<?php } ?>
 			</a>
+			</div>
 			<div id="play-pause" class="play"></div>
 			<div class="lifeTime">
 				<div class="duration"></div>
@@ -51,7 +61,7 @@
 
 						position = (((parseFloat(position[0]) * 60) + (parseFloat(position[1]))) * 100) / duration;
 						
-						position = Math.floor(position * 4.41);
+						position = Math.floor(position * 2.41);
 
 						$('.position').css({width: position});
 				  	
@@ -59,15 +69,13 @@
 
 					this.on('progress', function (load_percent) {
 
-						cargado = load_percent * 4.41;
+						cargado = load_percent * 2.41;
 
 						$('.duration').css({width: cargado});
 
 					}, this);
 
 					this.on('ended', function () { console.log('ended'); $(this).attr({class: 'play'}); }, this);
-					
-					
 					
 				}
 

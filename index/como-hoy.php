@@ -3,18 +3,28 @@
 		<section class="comoHoy">
 			<a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
 				<div class="cuadroComoHoy"></div>
+				<div class="cuadroComoHoySepia"></div>
 			</a>
-			<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>			
+			<?php $meta = get_post_custom(get_the_ID()); ?>
+			<?php if($meta['Portada'][0]){ ?>
+			<img alt="<?php the_title(); ?>" title="<?php the_title(); ?>" src="<?php echo $meta['Portada'][0]; ?>" />
+			<?php } else { ?>
+				<?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
+			<?php } ?>
 			<h3>
 				<a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
 					UN DÍA COMO HOY
 				</a>
 			</h3>
-			<span>
+			<div class="notaComoHoy">
 				<a href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
-					<?php the_title(); ?>
+					<?php if($meta['Subtitulo'][0]){ ?>
+						<?php echo $meta['Subtitulo'][0]; ?>
+					<?php } else { ?>
+						<?php the_title(); ?>
+					<?php } ?>
 				</a>
-			</span>
+			</div>
 		</section>
 	</a>
 <?php endwhile; ?>
