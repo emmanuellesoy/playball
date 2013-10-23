@@ -288,6 +288,9 @@
  	margin: 0 auto;
  	max-width: 685px;
  }
+.textoNota>p>a>img{display:block;margin:10px auto;max-width:670px;border:1px #d2d2d2 solid;padding:5px;}
+.textoNota>p>iframe{width:685px;height:390px;}
+
  .seccionCompartir
  {
  	float: left;

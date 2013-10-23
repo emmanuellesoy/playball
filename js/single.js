@@ -42,3 +42,5 @@ function traer_mas(query)
 	    }
 	});
 }
+
+$(document).ready(function(){var e=$(".entry_author_image").html();if(e==""){$(".autorNota").hide();}});

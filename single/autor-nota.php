@@ -11,7 +11,7 @@
 	<div class="autorNotaTwitter">
 		<?php $autor_tn = get_the_author_meta( 'twitter' ); ?>
 		<?php if($autor_tn){?>
-			<a href="https://twitter.com/<?php echo $autor_tn; ?>" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Seguir @<?php echo $autor_tn; ?></a>
+			<a href="https://twitter.com/<?php echo $autor_tn; ?>" class="twitter-follow-button" data-show-count="false" data-show-screen-name="true">Seguir @<?php echo $autor_tn; ?></a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 		<?php } ?>
 	</div>
