@@ -12,6 +12,12 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/premiar.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/single.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/titulos.js"></script>
+<script type="text/javascript">
+	function caragr_frame_estadisticas(url)
+	{
+    	$("#frame").attr("src", url).css( {"height": "750px"} );
+	}
+</script>
 <?php wp_footer(); ?>
 <script type="text/javascript">
 	$(document).ready(function(){

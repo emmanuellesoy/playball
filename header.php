@@ -49,8 +49,8 @@
                             </a>
                         </li>
                 		<li>
-                			<a href="<?php bloginfo('wpurl'); ?>/category/destacadas" title="Noticias Destacadas">
-                				DESTACADAS
+                			<a href="<?php bloginfo('wpurl'); ?>/estadisticas" title="Noticias Destacadas">
+                				ESTADÍSTICAS
                 			</a>
                 		</li>
                 		<li>

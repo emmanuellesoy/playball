@@ -1401,3 +1401,39 @@ background-color: #11294E;
 	position: absolute;
 	z-index: 1;
 }
+.estadisticasHeader
+{
+	background-color: #071A38;
+	color: #e5c674;
+	height: 32px;
+	font-family: CollegiateBlackFLF;
+	font-size: 36px;
+	text-align: center;
+	padding: 15px;
+	margin: 20px 0px 0px 182px;
+	width: 728px;
+}
+.estadisticasBotones
+{
+	text-align: center;
+	margin: 15px 0px 0px 0px;
+}
+#estadisticasFrame
+{
+	margin: 10px 0px 0px 15px;
+	width: 1062px;
+}
+.estadisticasBotones>button
+{
+	background-color: #C52027;
+	border: none;
+	color: #fff;
+	font-family: Intro;
+	font-size: 14px;
+	text-align: 150%;
+	padding: 5px 5px 2px 5px;
+}
+.estadisticasBotones>button:hover
+{
+	background-color: #081B39;
+}
